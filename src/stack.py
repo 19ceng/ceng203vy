@@ -27,7 +27,7 @@ class Stack():
 	def size(self):
 		return len(self.items)
 
-	def print(self, title=""):
+	def show(self, title=""):
 		print title,
 		for i in self.items:
 			print i,
