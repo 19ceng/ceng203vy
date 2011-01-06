@@ -21,7 +21,7 @@ def sierpinskiT(points,level,win, label=0):
         # sag sierpinski
         sierpinskiT([getMid(points[0],points[2]),
                      getMid(points[1],points[2]),
-                     points[2]],level-1,win,label=3)
+                     points[2]],level-1,win,label=3)        
     
 def getMid(p1,p2):
     return Point( ((p1.getX()+p2.getX()) / 2.0),
